@@ -12,7 +12,7 @@ services:
     startCommand: npm start # Command to start your application
     numInstances: 1 # Number of instances to run (start with 1)
     plan: free # Or 'starter', 'standard', etc. Choose your desired plan.
-    port: 3000 # The port your Node.js server listens on (from backend/server.js)
+    port: 10000 # The port your Node.js server listens on (from backend/server.js)
     healthCheckPath: / # A path Render will check to confirm your service is running
     # Optional: Add environment variables if your application needs them
     # envVars:
