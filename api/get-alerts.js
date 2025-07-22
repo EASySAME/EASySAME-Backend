@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const USER_AGENT = 'EasySAMEApp/1.0 (graisonparkhurst1@gmail.com)'; // IMPORTANT: CHANGE THIS!
+const USER_AGENT = '(EASySAME-Backed/1.0 graisonparkhurst1@gmail.com)'; // IMPORTANT: CHANGE THIS!
 
 module.exports = async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
