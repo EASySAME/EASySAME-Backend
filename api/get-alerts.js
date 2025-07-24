@@ -3,7 +3,7 @@ const axios = require('axios');
 const USER_AGENT = 'EasySAMEApp/1.0 (graisonparkhurst1@gmail.com)'; // IMPORTANT: CHANGE THIS TO YOUR ACTUAL USER_AGENT!
 
 module.exports = async (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Origin', 'https://easysame.github.io');
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
