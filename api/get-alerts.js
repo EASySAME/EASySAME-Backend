@@ -33,7 +33,7 @@ module.exports = async (req, res) => {
         // *** END NEW CONSOLE.LOGS ***
 
 
-        const forecastZoneUrl = pointResponse.data.properties.forecastZone;
+        const forecastZoneUrl = pointResponse.data.forecastZone;
 
         if (!forecastZoneUrl) {
             return res.status(404).json({ error: 'Forecast zone not found for given coordinates.' });
